@@ -32,8 +32,7 @@ def terminado (sudoku):
 
 
 def numeroEnFila (sudoku, i, n):
-    if n in sudoku[i]:
-        return True
+    return n in sudoku[i]
 
 
 def numeroEnColumna (sudoku, j, n):
