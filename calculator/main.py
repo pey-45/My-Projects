@@ -3,7 +3,8 @@ from tkinter import *
 
 window = Tk()
 window.title("Calculator")
-window.geometry("210x260")
+window.geometry("204x260")
+window.resizable(False, False)
 
 # constants
 button_width = 5
@@ -136,3 +137,4 @@ button_point.grid(row=5, column=2, padx=button_padx, pady=button_pady)
 button_equals.grid(row=5, column=3, padx=button_padx, pady=button_pady)
 
 window.mainloop()
+
