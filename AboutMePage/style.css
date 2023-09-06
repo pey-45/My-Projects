@@ -1,0 +1,36 @@
+body {
+    padding: 0;
+    margin: 0;
+    background: url(./images/wallpaper.png);
+    background-size: cover;
+}
+
+.header-name {
+    color: white;
+}
+
+.presentation-title {
+    color: white;
+    font-family: "Nunito";
+}
+
+.presentation-text {
+    color: white;
+    font-family: "Bitter";
+}
+
+.white-buttons {
+    width: 100%;
+}
+
+button {
+    height: 50px;
+    font-family: "Nunito";
+    
+}
+
+.btn {
+    --bs-btn-font-family: "Nunito"!important;
+    --bs-btn-font-size: 22px!important;
+    --bs-btn-font-weight: 200!important;
+}
