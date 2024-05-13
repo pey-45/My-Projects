@@ -1,4 +1,4 @@
-// PREDEFINED OUTPUT PATH, MUST CHANGE IT TO MAKE IT WORK
+# PREDEFINED OUTPUT PATH, MUST CHANGE IT TO MAKE IT WORK
 
 from pytube import YouTube
 from moviepy.editor import *
